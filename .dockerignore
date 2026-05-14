@@ -1,0 +1,9 @@
+.git
+.github
+node_modules
+npm-debug.log*
+*.md
+docs/
+scripts/
+k8s/
+*.test.js
