@@ -4,10 +4,6 @@ kind: Service
 metadata:
   name: devsecops-service
   namespace: devsecops
-  annotations:
-    service.beta.kubernetes.io/aws-load-balancer-type: "external"
-    service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: "ip"
-    service.beta.kubernetes.io/aws-load-balancer-scheme: "internet-facing"
 
 spec:
   selector:
